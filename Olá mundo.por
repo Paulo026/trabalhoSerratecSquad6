@@ -10,6 +10,7 @@ programa
 	}
 
 	funcao testeDeAdicionar(){
+	cadeia OlaGalera
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
-Oi, Wagner
+ * @POSICAO-CURSOR = 119; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
