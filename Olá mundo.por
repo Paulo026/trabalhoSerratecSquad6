@@ -1,9 +1,16 @@
+/*
+ * teste de adicionar linha
+ */
+
 programa
 {
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+	}
+
+	funcao testeDeAdicionar(){
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 103; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
