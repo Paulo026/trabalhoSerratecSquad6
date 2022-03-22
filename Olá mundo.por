@@ -10,7 +10,7 @@ programa
 	}
 
 	funcao testeDeAdicionar(){
-		cadeia OlaGalera
+	cadeia OlaGalera
 	}
 }
 /* $$$ Portugol Studio $$$ 
