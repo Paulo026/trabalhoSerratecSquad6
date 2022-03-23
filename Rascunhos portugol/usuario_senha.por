@@ -1,17 +1,20 @@
 programa
-{	
+{
+	inclua biblioteca Util	
 		cadeia usuario, senha, entradaloja
 		
 		
     		funcao inicio(){	
-
-    			escreva("Olá, tudo bem? Deseja acessar nosso sistema? S/N :")
+    			limpa()
+			escreva("\n","Olá, tudo bem? Deseja acessar nosso sistema? S/N :")
     			leia(entradaloja)
     				se(entradaloja == "S" ou entradaloja == "s"){
     				login()
     				}
     				senao
     				escreva("Ok, estaremos aguardando sua próxima visita")
+    				Util.aguarde(3000)
+    				inicio()
     				    			    			
           }
 
@@ -25,6 +28,7 @@ programa
         			se (valida(usuario, senha)){
            		escreva("Seja bem vindo ", usuario)
            		escreva("\nA PortuGOL estava esperando por você!")
+           		//Tela do menu
            	     }           		
       			senao {
           	     para(inteiro tentativa = 1; tentativa <= 1; tentativa++){
@@ -41,6 +45,8 @@ programa
                     } 
                 	senao {
                 escreva("Acesso negado! Por favor verifique seus dados cadastrados.")
+                Util.aguarde(3000)
+                inicio()
                     }                	  	
                }
                 }
@@ -63,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1281; 
+ * @POSICAO-CURSOR = 757; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

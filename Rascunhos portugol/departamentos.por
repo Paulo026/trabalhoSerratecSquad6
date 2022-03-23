@@ -2,9 +2,9 @@ programa
 {
 	
 	funcao inicio()
-	{	inteiro dpto
+	{	inteiro dpto
 		cadeia departamento[3] 
-		departamento[0] = "CAÇA"
+		departamento[0] = "CAÇA E PESCA"
 		departamento[1] = "CAMPING"
 		departamento[2] = "ESPORTES"
 		
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 374; 
+ * @POSICAO-CURSOR = 40; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
