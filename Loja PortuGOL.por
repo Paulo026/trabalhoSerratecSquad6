@@ -135,9 +135,10 @@ programa
         	        usuario == "Renata" e senha == "renata" ou usuario == "Tatiana" e senha == "tati")
       }
 
-	funcao menuInicial(){
+	funcao menuDepartamento(){
 		//https://www.tablesgenerator.com/text_tables
 		escreva("Menu inicial")
+		
 	}
 }
 
@@ -155,8 +156,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2329; 
- * @DOBRAMENTO-CODIGO = [8, 28, 48, 71, 78, 131, 143];
+ * @POSICAO-CURSOR = 3316; 
+ * @DOBRAMENTO-CODIGO = [8, 28, 48, 71, 78, 94, 131, 144];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
