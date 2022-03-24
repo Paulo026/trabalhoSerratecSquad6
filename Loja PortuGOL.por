@@ -77,16 +77,17 @@ programa
 
 
 	funcao telaDeEntrada(){	
-    			limpa()
+    			//limpa()
 			escreva("\n","Olá, tudo bem? Deseja acessar nosso sistema? S/N :")
     			leia(entradaloja)
     				se(entradaloja == "S" ou entradaloja == "s"){
     				login()
     				}
-    				senao
+    				senao {
     				escreva("Ok, estaremos aguardando sua próxima visita")
     				Util.aguarde(3000)
     				inicio()
+    				}
     				    			    			
       }
 
@@ -102,13 +103,13 @@ programa
         			se (valida(usuario, senha)){
            		escreva("Seja bem vindo ", usuario)
            		escreva("\nA PortuGOL estava esperando por você!")
-           		menuInicial()
+           		menuDepartamento()
            	     }           		
       			senao {
           	     para(inteiro tentativa = 1; tentativa <= 1; tentativa++){
                	se (valida(usuario, senha))        	
           		   
-               limpa()
+               
                escreva("Dados incorretos!\nNome do usuário: ")
                leia(usuario)
                escreva("Sua senha: ")
@@ -119,7 +120,7 @@ programa
                     } 
                 	senao {
                 escreva("Acesso negado! Por favor verifique seus dados cadastrados.")
-                Util.aguarde(3000)
+              Util.aguarde(3000)
                 inicio()
                     }                	  	
                }
@@ -156,8 +157,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3316; 
- * @DOBRAMENTO-CODIGO = [8, 28, 48, 71, 78, 94, 131, 144];
+ * @POSICAO-CURSOR = 1850; 
+ * @DOBRAMENTO-CODIGO = [8, 28, 48, 145];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
